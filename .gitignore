@@ -427,3 +427,23 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# ==========================================
+# Cấu hình riêng cho Đồ án IS217 (UIT)
+# ==========================================
+
+# File Cơ sở dữ liệu SQL Server (Bắt buộc ẩn)
+*.mdf
+*.ldf
+
+# Bộ dữ liệu thô & File báo cáo nặng (Khuyên dùng link Drive)
+*.csv
+*.xlsx
+*.pbix
+*.mp4
+*.zip
+
+# File rác từ Python & Jupyter Notebook (Tiền xử lý dữ liệu)
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
